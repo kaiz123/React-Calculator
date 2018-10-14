@@ -4,6 +4,15 @@ A simple react calculator
 Run the following command:
 `npm install basic-react-calculator`
 
-##Usage
-import {App} from 'basic-react-calculator'
-<App />
+## Usage
+```
+import Calculator from 'basic-react-calculator'  
+
+class CalculatorExample extends React.Component {
+  render() {
+    return (
+    		<Calculator />
+    	);
+  }
+}
+```
