@@ -7,4 +7,4 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
 registerServiceWorker();
 
-export { App };
+export default App;

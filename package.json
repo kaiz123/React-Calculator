@@ -1,6 +1,6 @@
 {
   "name": "basic-react-calculator",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "dependencies": {
     "prop-types": "^15.6.2",
     "reactstrap": "^6.5.0"
