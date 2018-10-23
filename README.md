@@ -9,8 +9,12 @@ Run the following command:
 import Calculator from 'basic-react-calculator'  
 
 class CalculatorExample extends React.Component {
+
+	//color prop specifies the color of the button which when clicked opens the calculator
+	
   render() {
     return (
+
     		<Calculator color="primary"/>
     		<Calculator color="secondary"/>
     		<Calculator color="success"/>
