@@ -11,7 +11,13 @@ import Calculator from 'basic-react-calculator'
 class CalculatorExample extends React.Component {
   render() {
     return (
-    		<Calculator />
+    		<Calculator color="primary"/>
+    		<Calculator color="secondary"/>
+    		<Calculator color="success"/>
+    		<Calculator color="info"/>
+    		<Calculator color="warning"/>
+    		<Calculator color="danger"/>
+    		<Calculator color="link"/>
     	);
   }
 }

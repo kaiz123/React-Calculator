@@ -23,7 +23,7 @@ class App extends Component {
     return (
  		
     	<div>
-	 		<Button color="danger" onClick={this.toggle}>Open Calculator</Button>
+	 		<Button color={this.props.color} onClick={this.toggle}>Open Calculator</Button>
 	        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
 	          <ModalHeader toggle={this.toggle}>Calculator</ModalHeader>
 	          <ModalBody>
